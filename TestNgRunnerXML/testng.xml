@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="XMLCheck">
+<listeners>
+        <listener class-name="Listers.TestListener"/>
+        <listener class-name="Listers.AnnotationTransformer"/>
+    </listeners>
+    <test name="WarrantyLot1">
+        <classes>
+            <class name="TestFiles.TestCase1" />
+        </classes>
+    </test>
+</suite>
