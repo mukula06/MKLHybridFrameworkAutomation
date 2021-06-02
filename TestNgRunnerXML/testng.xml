@@ -4,7 +4,7 @@
         <listener class-name="Listers.TestListener"/>
         <listener class-name="Listers.AnnotationTransformer"/>
     </listeners>
-    <test name="WarrantyLot1">
+    <test name="TestCase1">
         <classes>
             <class name="TestFiles.TestCase1" />
         </classes>
